@@ -20,19 +20,32 @@ const FormAddCriminal = () => {
         nombres: '',
         apellidos: '',
         fechaNacimiento: '',
-        paisOrigen: '',
+        paisOrigen: 'Bolivia',
         ci: '',
         telefono: '',
-        genero: ''
+        genero: 'Masculino'
     });
 
+    const clearState = () => {
+        setCriminal({
+            tipo: 'criminal',
+            nombres: '',
+            apellidos: '',
+            fechaNacimiento: '',
+            paisOrigen: 'Bolivia',
+            ci: '',
+            telefono: '',
+            genero: 'Masculino'
+        })
+    }
     const handleSubmit = (e) => {
         e.preventDefault();
         postCriminal(criminal);
+        clearState();
     }
 
     return (
-        <form onSubmit={handleSubmit}>
+        <form id='formAdd' onSubmit={handleSubmit}>
             <div className="ed-container">
                 <div className="ed-item l-50 form__item">
                     <label htmlFor="names">Nombres</label>

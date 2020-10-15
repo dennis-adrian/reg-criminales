@@ -9,6 +9,8 @@
     "bootstrap": "^4.5.2",
     "ed-grid": "^3.0.1",
     "edteam-style-guides": "^0.0.73",
+    "jspdf": "^2.1.1",
+    "jspdf-autotable": "^3.5.13",
     "moment": "^2.29.1",
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
