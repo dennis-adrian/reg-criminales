@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useFetchCriminals } from '../../hooks/useFetchCriminals';
 import CriminalsTable from '../Molecules/CriminalsTable';
 import Topbar from '../Molecules/Topbar';
@@ -9,8 +9,10 @@ const Criminals = () => {
     return (
         <>
             <Topbar page='Criminales' subpage='Lista de Criminales' />
-            {loading && <p className="animate__animated animate__flash">Loading...</p>}
-            <CriminalsTable criminales={criminales}/>
+            {loading
+                ? <p className="animate__animated animate__flash">Loading...</p>
+                : <CriminalsTable criminales={criminales} />
+            }
         </>
     )
 }

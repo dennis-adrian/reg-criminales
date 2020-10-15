@@ -7,7 +7,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     grid-template-columns: minmax(auto, 976px);
     display: grid;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 .Header-main {

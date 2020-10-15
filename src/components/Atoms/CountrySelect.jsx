@@ -1,8 +1,8 @@
-import React from 'react'
+import React from 'react';
 
-const CountrySelect = () => {
+const CountrySelect = ({onChange}) => {
     return (
-        <select name="pais" defaultValue='BO'>
+        <select id="country" defaultValue='BO' onChange={onChange}>
             <option value="AF">Afganistán</option>
             <option value="AL">Albania</option>
             <option value="DE">Alemania</option>
