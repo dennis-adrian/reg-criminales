@@ -1,18 +1,15 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useFetchCriminals } from '../../hooks/useFetchCriminals';
 import CriminalsTable from '../Molecules/CriminalsTable';
-import Topbar from '../Molecules/Topbar';
 
-const Criminals = () => {
+const Reports = () => {
     const { data: criminales, loading } = useFetchCriminals();
-
     return (
-        <>
-            <Topbar page='Criminales' subpage='Lista de Criminales' />
+        <div>
             {loading && <p className="animate__animated animate__flash">Loading...</p>}
-            <CriminalsTable criminales={criminales}/>
-        </>
+            <CriminalsTable criminales={criminales} page='reports' />
+        </div>
     )
 }
 
-export default Criminals;
+export default Reports;

@@ -1,5 +1,4 @@
 import React from 'react'
-import { getCriminals } from '../../helpers/getCriminals'
 import { useFetchCriminals } from '../../hooks/useFetchCriminals'
 import Topbar from '../Molecules/Topbar'
 
