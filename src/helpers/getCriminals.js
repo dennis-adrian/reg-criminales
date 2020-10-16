@@ -1,4 +1,4 @@
-export const getCriminals = async (country = 'Bolivia', minAge = 0, maxAge = 100, reqType = 1) => {
+export const getCriminals = async (country, minAge, maxAge, reqType = 1) => {
     const API = 'https://ministeriocrimenes.herokuapp.com/api/criminal';
     /* Request Types
     1. all criminals

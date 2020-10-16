@@ -1,19 +1,8 @@
-import React, { useRef, useState } from 'react';
+import React, { useState } from 'react';
 import { postCriminal } from '../../helpers/postCriminal';
 import CountrySelect from '../Atoms/CountrySelect';
 
 const FormAddCriminal = () => {
-
-    // const criminal = {
-    //     tipo: "criminal",
-    //     nombres: "Dario",
-    //     apellidos: "Mendoza",
-    //     fechaNacimiento: "1998-03-02",
-    //     paisOrigen: "Argentina",
-    //     ci: "4524355",
-    //     telefono: "78999887",
-    //     genero: "masculino"
-    // }
 
     const [criminal, setCriminal] = useState({
         tipo: 'criminal',

@@ -2,7 +2,8 @@ import React from 'react';
 
 const CountrySelect = ({onChange}) => {
     return (
-        <select id="country" defaultValue='BO' onChange={onChange}>
+        <select id="country" defaultValue='ALL' onChange={onChange}>
+            <option value="ALL">Todos</option>
             <option value="AF">Afganistán</option>
             <option value="AL">Albania</option>
             <option value="DE">Alemania</option>

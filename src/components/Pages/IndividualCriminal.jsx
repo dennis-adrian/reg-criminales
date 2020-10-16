@@ -15,7 +15,7 @@ const IndividualCriminal = ({ match }) => {
                 const { criminal } = data;
                 criminal.map(crim => setCriminal(crim))
             })
-    }, []);
+    }, [API]);
 
     return (
         <div className="Characters-inner">

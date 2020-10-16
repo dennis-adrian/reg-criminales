@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import { getCriminals } from "../helpers/getCriminals";
 
-export const useFetchCriminals = (country, minAge, maxAge, reqType = 1) => {
+export const useFetchCriminals = (country, minAge, maxAge, reqType) => {
     const [state, setState] = useState({
         data: [],
         loading: true
@@ -15,7 +15,7 @@ export const useFetchCriminals = (country, minAge, maxAge, reqType = 1) => {
                     loading: false
                 })
             })
-    }, []);
+    }, [country, minAge, maxAge, reqType]);
 
     return state;
 }
