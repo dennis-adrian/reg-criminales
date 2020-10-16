@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/reg-criminales/static/css/main.6999c77c.chunk.css",
+    "main.js": "/reg-criminales/static/js/main.dfda5b79.chunk.js",
+    "main.js.map": "/reg-criminales/static/js/main.dfda5b79.chunk.js.map",
+    "runtime-main.js": "/reg-criminales/static/js/runtime-main.12d86e7b.js",
+    "runtime-main.js.map": "/reg-criminales/static/js/runtime-main.12d86e7b.js.map",
+    "static/js/2.0af42879.chunk.js": "/reg-criminales/static/js/2.0af42879.chunk.js",
+    "static/js/2.0af42879.chunk.js.map": "/reg-criminales/static/js/2.0af42879.chunk.js.map",
+    "static/js/3.0cdab1c6.chunk.js": "/reg-criminales/static/js/3.0cdab1c6.chunk.js",
+    "static/js/3.0cdab1c6.chunk.js.map": "/reg-criminales/static/js/3.0cdab1c6.chunk.js.map",
+    "static/js/4.acf08330.chunk.js": "/reg-criminales/static/js/4.acf08330.chunk.js",
+    "static/js/4.acf08330.chunk.js.map": "/reg-criminales/static/js/4.acf08330.chunk.js.map",
+    "static/js/5.b5405e20.chunk.js": "/reg-criminales/static/js/5.b5405e20.chunk.js",
+    "static/js/5.b5405e20.chunk.js.map": "/reg-criminales/static/js/5.b5405e20.chunk.js.map",
+    "index.html": "/reg-criminales/index.html",
+    "precache-manifest.24763021418d2d4518d304e693fb08b6.js": "/reg-criminales/precache-manifest.24763021418d2d4518d304e693fb08b6.js",
+    "service-worker.js": "/reg-criminales/service-worker.js",
+    "static/css/main.6999c77c.chunk.css.map": "/reg-criminales/static/css/main.6999c77c.chunk.css.map",
+    "static/js/3.0cdab1c6.chunk.js.LICENSE.txt": "/reg-criminales/static/js/3.0cdab1c6.chunk.js.LICENSE.txt",
+    "static/js/4.acf08330.chunk.js.LICENSE.txt": "/reg-criminales/static/js/4.acf08330.chunk.js.LICENSE.txt",
+    "static/js/5.b5405e20.chunk.js.LICENSE.txt": "/reg-criminales/static/js/5.b5405e20.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.12d86e7b.js",
+    "static/js/3.0cdab1c6.chunk.js",
+    "static/css/main.6999c77c.chunk.css",
+    "static/js/main.dfda5b79.chunk.js"
+  ]
+}
