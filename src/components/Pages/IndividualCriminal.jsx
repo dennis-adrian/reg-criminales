@@ -19,7 +19,7 @@ const IndividualCriminal = ({ match }) => {
 
     return (
         <div className="Characters-inner">
-            <CriminalPicCard nombres={criminal.nombres} apellidos={criminal.apellidos} />
+            <CriminalPicCard nombres={criminal.nombres} apellidos={criminal.apellidos} imagen={criminal.imagen}/>
             <CriminalInfoCard
                 key={criminal.id}
                 ci={criminal.ci}

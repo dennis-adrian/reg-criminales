@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import moment from 'moment';
 import CriminalsTable from '../Molecules/CriminalsTable';
-import pdfReportGenerator from '../../helpers/pdfReportGenerator';
+//import pdfReportGenerator from '../../helpers/pdfReportGenerator';
 import AddFilters from '../Molecules/AddFilters';
 const Reports = () => {
 

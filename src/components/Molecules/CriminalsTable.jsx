@@ -4,7 +4,12 @@ import { Link } from 'react-router-dom';
 import pdfReportGenerator from '../../helpers/pdfReportGenerator';
 import { useFetchCriminals } from '../../hooks/useFetchCriminals';
 
-const CriminalsTable = ({ filters, page = 'criminals' }) => {
+const CriminalsTable = ({ filters = {
+    country: 'Todos',
+    minAge: 0,
+    maxAge: 100,
+    reqType: 1
+}, page = 'criminals' }) => {
     let counter = 0;
 
     const { data: criminales, loading } = useFetchCriminals(
